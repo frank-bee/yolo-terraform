@@ -74,19 +74,19 @@ One command per tool. Installs globally so skills are available across all your 
 ### Claude Code
 
 ```bash
-npx skills add frankbernhardt/yolo-terraform -g -a claude-code
+npx skills add frank-bee/yolo-terraform -g -a claude-code
 ```
 
 ### Cursor
 
 ```bash
-npx skills add frankbernhardt/yolo-terraform -g -a cursor
+npx skills add frank-bee/yolo-terraform -g -a cursor
 ```
 
 ### GitHub Copilot
 
 ```bash
-npx skills add frankbernhardt/yolo-terraform -g -a github-copilot
+npx skills add frank-bee/yolo-terraform -g -a github-copilot
 ```
 
 > Drop the `-g` flag to install per-repo instead of globally.
