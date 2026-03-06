@@ -1,8 +1,8 @@
 <p align="center">
   <img src="assets/banner.png" alt="Yolo Terraform — Safe team collaboration on Terraform without the operational overhead" width="600">
   <br><br>
-  <b>Collaborate on Terraform the lazy way —<br>your AI agent handles locking, plans, and PRs while you sip coffee.</b>
 </p>
+Collaborate on Terraform the lazy way —<br>your AI agent handles locking, plans, and PRs while you sip coffee.
 
 Teams need coordination when multiple people work on Terraform: locking to prevent conflicts, plan reviews on PRs, and an audit trail of applies. Tools like Atlantis, Spacelift, or Terraform Cloud solve this — but they come with servers to maintain, webhooks to configure, SaaS subscriptions, or complex CI pipelines.
 
