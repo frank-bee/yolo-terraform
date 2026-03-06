@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Yolo Terraform Banner" width="600">
+</p>
+
 # Yolo Terraform
 
 **Safe team collaboration on Terraform — without the operational overhead.**
