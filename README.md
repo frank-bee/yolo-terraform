@@ -1,10 +1,6 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Yolo Terraform Banner" width="600">
+  <img src="assets/banner.png" alt="Yolo Terraform — Safe team collaboration on Terraform without the operational overhead" width="600">
 </p>
-
-# Yolo Terraform
-
-**Safe team collaboration on Terraform — without the operational overhead.**
 
 Teams need coordination when multiple people work on Terraform: locking to prevent conflicts, plan reviews on PRs, and an audit trail of applies. Tools like Atlantis, Spacelift, or Terraform Cloud solve this — but they come with servers to maintain, webhooks to configure, SaaS subscriptions, or complex CI pipelines.
 
@@ -30,20 +26,7 @@ Developer → AI Agent → terraform plan/apply
    - **Apply first** — create PR, apply immediately, get review after
 6. Locks auto-clean when PRs are merged or closed
 
-## Why Not Atlantis?
-
-| | Atlantis | Yolo Terraform |
-|---|---|---|
-| **Architecture** | Dedicated server with webhooks | Runs on developer's machine via AI agent |
-| **Infrastructure** | Server deployment, SSL, networking, webhook config | Zero — just AWS credentials and a DynamoDB table |
-| **Credentials** | Stored on server | Developer's local AWS profiles |
-| **Execution** | Server-side, triggered by PR comments | Local, triggered by conversation with AI agent |
-| **Locking** | Built-in server-side locks | DynamoDB-based distributed locks |
-| **PR Integration** | Webhook-driven comments | `gh` CLI — same result, no webhook needed |
-| **Cost** | Server running 24/7 | Pay-per-request DynamoDB (essentially free) |
-| **Maintenance** | Upgrades, monitoring, scaling | None — it's just markdown files |
-
-### vs Other Tools
+## Comparison
 
 | Tool | Approach | Yolo Terraform Difference |
 |---|---|---|
