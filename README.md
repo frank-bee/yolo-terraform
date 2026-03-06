@@ -8,7 +8,9 @@ Teams need coordination when multiple people work on Terraform: locking to preve
 
 Yolo Terraform gives you the same team workflows with radically less complexity. It's just markdown files that teach your AI coding agent how to run `terraform`, coordinate locks via a single DynamoDB table, and manage PRs via `gh` CLI. No server, no webhooks, no SaaS — just your terminal and your AI assistant.
 
-> **Status: ALPHA** — Early-stage experiment. Expect rough edges and breaking changes.
+> **Status: ALPHA** — Early-stage experiment. Expect rough edges and breaking changes. Contributions are very welcome! Some areas that would be fairly easy to add:
+> - Alternative lock backends (e.g. Kubernetes ConfigMaps/Leases)
+> - Support for other Git providers beyond GitHub (GitLab, Bitbucket, etc.)
 
 ## How It Works
 
