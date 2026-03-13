@@ -30,6 +30,10 @@ Developer → AI Agent → terraform plan/apply
    - **Apply first** — create PR, apply immediately, get review after
 6. Locks auto-clean when PRs are merged or closed
 
+<p align="center">
+  <img src="assets/workflows.png" alt="Three workflow modes: Apply now (quick), Apply first review later, Review first apply later (safest)" width="600">
+</p>
+
 ## Comparison
 
 | Tool | Approach | Yolo Terraform Difference |
